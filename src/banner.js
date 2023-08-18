@@ -11,20 +11,20 @@ export default function Banner(){
     switch(r){
         case 1:
             banner='./banners/react.jpg'
-            url='https:/www.reactjs.org'
+            url="https://www.reactjs.org"
             break
         case 2:
             banner='./banners/react-native.jpg'
-            url='https:/www.reactnative.com'
+            url='https://www.reactnative.com'
             break
         case 3:
             banner='./banners/node.jpg'
-            url='https:/www.nodejs.org'
+            url='https://www.nodejs.org'
             break          
         default:break  
     }
 const bannerClick = ()=>{
-    window.location(url)
+    window.open(url)
 
 }
 return(
